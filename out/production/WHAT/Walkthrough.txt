@@ -1,0 +1,97 @@
+Beating the game requires some luck, but ultimately it should be a pretty
+easy task. The most important things to remember is that the buff-items
+in this game are overtuned, so make sure to exploit them. And also prioritize
+luck buffs always. It is recommended to fight as many monsters on the
+floor as possible as that yields more money. Preferably save money for the
+Kossu that you can get on the 4th floor for 1000G, since it is by far the best
+item in the game. In any case, you can follow the following list (obtained with
+Shop.Tiers() in REPL), which shows the stat to money ratio of each item, so that
+you can optimize your money usage:
+
+Weapons:
+Ray Gun | value: 0.5 | price: 800G
+Adamantite Broadsword | value: 0.42 | price: 700G
+Sharp Frisbee | value: 0.33 | price: 450G
+Ring of Power | value: 0.31 | price: 800G       (LEGENDARY ITEM)
+Lazer Sword | value: 0.31 | price: 800G         (LEGENDARY ITEM)
+Fancier Wand | value: 0.3 | price: 50G     ---> Good for early stages
+Excalibur | value: 0.29 | price: 1200G          (LEGENDARY ITEM)
+Glass Torch | value: 0.28 | price: 350G
+Large Rod | value: 0.27 | price: 550G
+Water staff | value: 0.26 | price: 300G
+Cheese Gun | value: 0.24 | price: 250G
+Rat on a Stick | value: 0.22 | price: 200G
+Spiked Mace | value: 0.2 | price: 100G
+Polished Dagger | value: 0.2 | price: 50G
+Bass Knuckles | value: 0.2 | price: 150G
+Magic Ring | value: 0.2 | price: 100G
+
+TowerClimb.Armor:
+Horcrux | value: 0.31 | price: 800G             (LEGENDARY ITEM)
+Iron Plate | value: 0.31 | price: 800G          (LEGENDARY ITEM)
+Plot TowerClimb.Armor | value: 0.29 | price: 1200G         (LEGENDARY ITEM)
+Warm Jacket | value: 0.24 | price: 500G
+Shiny Robe | value: 0.23 | price: 650G
+Protective Crystal | value: 0.22 | price: 400G
+Mythril Chainvest | value: 0.22 | price: 400G
+Kevlar Vest | value: 0.21 | price: 700G
+Cool Bracelets | value: 0.2 | price: 150G
+Chainmail | value: 0.2 | price: 50G
+Jeans | value: 0.2 | price: 50G
+Gold-plated Cuban Chains | value: 0.16 | price: 300G
+Budget Rolex | value: 0.16 | price: 150G
+Rolex | value: 0.16 | price: 250G
+Magical Hat | value: 0.15 | price: 100G
+
+Consumables:
+Karjalan Piirakka | value: 5.71 | price: 700G   (LEGENDARY ITEM)
+Gifflar | value: 5.0 | price: 400G              (LEGENDARY ITEM)
+Whole Chicken | value: 3.33 | price: 600G
+Golden Steak | value: 3.12 | price: 800G
+Kanelipulla | value: 3.07 | price: 325G
+Yoghurt | value: 2.5 | price: 200G
+Huge Potion | value: 2.4 | price: 250G
+Larger Potion | value: 2.0 | price: 100G
+Regular Potion | value: 2.0 | price: 50G
+Applepie | value: 2.0 | price: 175G
+Pizza Salami | value: 1.8 | price: 250G
+Mushroom Soup | value: 1.75 | price: 200G
+Spaghetti | value: 1.33 | price: 150G
+
+COMBAT Buffs:
+Quinoa | value: 0.26 | price: 150G       ---> Good for early stages
+Cheese Burger | value: 0.13 | price: 150G
+Broccoli | value: 0.12 | price: 200G
+Pouch of Chia Seeds | value: 0.12 | price: 250G
+Whole Milk | value: 0.1 | price: 100G
+Dragonfruit | value: 0.08 | price: 400G
+
+LUCK Buffs:
+Fortune Cookie | value: 0.4 | price: 200G
+Potion of Luck | value: 0.26 | price: 150G
+Lucky Clover | value: 0.2 | price: 100G
+
+HP Buffs:
+Spice | value: 2.66 | price: 150G        ---> Good for early stages
+Gapple | value: 2.0 | price: 1000G            (LEGENDARY ITEM)
+Whopper | value: 1.33 | price: 300G
+
+ALL Buffs:
+Kossu | value: 0.1 | price: 1000G             (LEGENDARY ITEM, BY FAR THE BEST)
+Celery | value: 0.05 | price: 150G       ---> Good for early stages
+God Fruit | value: 0.03 | price: 800G
+
+
+Note that it is also important to keep your power level and greed in check,
+as these stats cause more difficult enemies to spawn. Just for a heads-up, the
+threshhold for power level and greed at each floor transition goes as follows:
+F1 -> F2 => 200 | 200
+F2 -> F3 => 500 | 300
+F3 -> F4 => 800 | 400
+It may also not be possible to avoid them altogether, but it can be avoided in
+certain situations by unequipping/selling your equipment. This game has not had
+enough time to go through proper playtesting, so if you ever get stuck, feel free
+to use the dev commands. Try "/dev".
+
+
+(There may be a secret boss on the final floor...)
